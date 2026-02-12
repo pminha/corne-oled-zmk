@@ -329,6 +329,20 @@ path.combo {
 <tspan x="420" dy="-0.6em">Ctl+Gui</tspan><tspan x="420" dy="1.2em">+Q</tspan>
 </text>
 </g>
+<g class="combo combopos-3">
+<path d="M420,149 l-317,12" class="combo"/>
+<path d="M420,149 l-261,-2" class="combo"/>
+<path d="M420,149 l-205,-8" class="combo"/>
+<path d="M420,149 l-149,-2" class="combo"/>
+<path d="M420,149 l149,-2" class="combo"/>
+<path d="M420,149 l205,-8" class="combo"/>
+<path d="M420,149 l261,-2" class="combo"/>
+<path d="M420,149 l317,12" class="combo"/>
+<rect rx="6" ry="6" x="406" y="136" width="28" height="26" class="combo"/>
+<a href="#bluetooth">
+<text x="420" y="149" class="combo tap layer-activator"><tspan style="font-size: 78%">bluetooth</tspan></text>
+</a><text x="420" y="160" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-numsym">
@@ -532,6 +546,20 @@ path.combo {
 <tspan x="420" dy="-0.6em">Ctl+Gui</tspan><tspan x="420" dy="1.2em">+Q</tspan>
 </text>
 </g>
+<g class="combo combopos-3">
+<path d="M420,149 l-317,12" class="combo"/>
+<path d="M420,149 l-261,-2" class="combo"/>
+<path d="M420,149 l-205,-8" class="combo"/>
+<path d="M420,149 l-149,-2" class="combo"/>
+<path d="M420,149 l149,-2" class="combo"/>
+<path d="M420,149 l205,-8" class="combo"/>
+<path d="M420,149 l261,-2" class="combo"/>
+<path d="M420,149 l317,12" class="combo"/>
+<rect rx="6" ry="6" x="406" y="136" width="28" height="26" class="combo"/>
+<a href="#bluetooth">
+<text x="420" y="149" class="combo tap layer-activator"><tspan style="font-size: 78%">bluetooth</tspan></text>
+</a><text x="420" y="160" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-nav">
@@ -733,6 +761,20 @@ path.combo {
 <text x="420" y="33" class="combo tap">
 <tspan x="420" dy="-0.6em">Ctl+Gui</tspan><tspan x="420" dy="1.2em">+Q</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<path d="M420,149 l-317,12" class="combo"/>
+<path d="M420,149 l-261,-2" class="combo"/>
+<path d="M420,149 l-205,-8" class="combo"/>
+<path d="M420,149 l-149,-2" class="combo"/>
+<path d="M420,149 l149,-2" class="combo"/>
+<path d="M420,149 l205,-8" class="combo"/>
+<path d="M420,149 l261,-2" class="combo"/>
+<path d="M420,149 l317,12" class="combo"/>
+<rect rx="6" ry="6" x="406" y="136" width="28" height="26" class="combo"/>
+<a href="#bluetooth">
+<text x="420" y="149" class="combo tap layer-activator"><tspan style="font-size: 78%">bluetooth</tspan></text>
+</a><text x="420" y="160" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -955,6 +997,20 @@ path.combo {
 <tspan x="420" dy="-0.6em">Ctl+Gui</tspan><tspan x="420" dy="1.2em">+Q</tspan>
 </text>
 </g>
+<g class="combo combopos-3">
+<path d="M420,149 l-317,12" class="combo"/>
+<path d="M420,149 l-261,-2" class="combo"/>
+<path d="M420,149 l-205,-8" class="combo"/>
+<path d="M420,149 l-149,-2" class="combo"/>
+<path d="M420,149 l149,-2" class="combo"/>
+<path d="M420,149 l205,-8" class="combo"/>
+<path d="M420,149 l261,-2" class="combo"/>
+<path d="M420,149 l317,12" class="combo"/>
+<rect rx="6" ry="6" x="406" y="136" width="28" height="26" class="combo"/>
+<a href="#bluetooth">
+<text x="420" y="149" class="combo tap layer-activator"><tspan style="font-size: 78%">bluetooth</tspan></text>
+</a><text x="420" y="160" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1323)" class="layer-bluetooth">
@@ -1111,9 +1167,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(224, 205)" class="key trans keypos-36">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(224, 205)" class="key keypos-36">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#default">
+<text x="0" y="0" class="key tap layer-activator">default</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key trans keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1131,9 +1189,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(616, 205)" class="key trans keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(616, 205)" class="key keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#default">
+<text x="0" y="0" class="key tap layer-activator">default</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="714" y="85" width="28" height="26" class="combo"/>
@@ -1156,6 +1216,20 @@ path.combo {
 <text x="420" y="33" class="combo tap">
 <tspan x="420" dy="-0.6em">Ctl+Gui</tspan><tspan x="420" dy="1.2em">+Q</tspan>
 </text>
+</g>
+<g class="combo combopos-3">
+<path d="M420,149 l-317,12" class="combo"/>
+<path d="M420,149 l-261,-2" class="combo"/>
+<path d="M420,149 l-205,-8" class="combo"/>
+<path d="M420,149 l-149,-2" class="combo"/>
+<path d="M420,149 l149,-2" class="combo"/>
+<path d="M420,149 l205,-8" class="combo"/>
+<path d="M420,149 l261,-2" class="combo"/>
+<path d="M420,149 l317,12" class="combo"/>
+<rect rx="6" ry="6" x="406" y="136" width="28" height="26" class="combo"/>
+<a href="#bluetooth">
+<text x="420" y="149" class="combo tap layer-activator"><tspan style="font-size: 78%">bluetooth</tspan></text>
+</a><text x="420" y="160" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

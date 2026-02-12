@@ -209,12 +209,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
 combos:
 - p: [22, 21]
   k: {t: mouse, h: toggle}
@@ -222,3 +222,5 @@ combos:
   k: ESCAPE
 - p: [2, 3, 4, 7, 8, 9]
   k: Ctl+Gui+Q
+- p: [25, 26, 27, 28, 31, 32, 33, 34]
+  k: {t: bluetooth, h: toggle}
