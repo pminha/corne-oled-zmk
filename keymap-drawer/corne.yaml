@@ -78,7 +78,7 @@ layers:
   - {t: '1', h: RIGHT COMMAND}
   - {t: '2', h: RIGHT ALT}
   - {t: '3', h: RIGHT CONTROL}
-  - {t: ▽, type: trans}
+  - {t: ., h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -93,10 +93,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Gui+LEFT
+  - Gui+DOWN ARROW
   - Gui+UP
-  - Gui+DOWN
   - Gui+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -108,8 +107,9 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
-  - UP
+  - UP ARROW
   - RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
