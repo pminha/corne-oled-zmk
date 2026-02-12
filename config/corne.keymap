@@ -14,7 +14,7 @@
     flavor = "tap-preferred";
 };
 
-&mmv { time-to-max-speed-ms = <150>; };
+&mmv { time-to-max-speed-ms = <300>; };
 
 / {
     combos {
@@ -67,19 +67,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCLAMATION         &kp AT_SIGN             &kp MINUS                  &kp UNDERSCORE                  &kp PLUS     &trans      &kp N7                      &kp N8                  &kp N9                      &kp PLUS      &kp MINUS
-&trans  &kp HASH                &kp DOLLAR              &kp LPAR                   &kp RIGHT_PARENTHESIS           &kp EQUAL    &kp EQUAL   &kp NUMBER_4                &kp N5                  &kp NUMBER_6                &kp ASTERISK  &trans
-&trans  &mt LEFT_SHIFT PERCENT  &mt LEFT_CONTROL CARET  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_COMMAND RIGHT_BRACKET  &kp GRAVE    &kp PERIOD  &mt RIGHT_COMMAND NUMBER_1  &mt RIGHT_ALT NUMBER_2  &mt RIGHT_CONTROL NUMBER_3  &trans        &trans
+&trans  &kp EXCLAMATION         &kp AT_SIGN             &kp MINUS                  &kp UNDERSCORE                  &kp PLUS     &trans      &kp N7                      &kp N8                  &kp N9                      &kp PLUS                &kp MINUS
+&trans  &kp HASH                &kp DOLLAR              &kp LPAR                   &kp RIGHT_PARENTHESIS           &kp EQUAL    &kp EQUAL   &kp NUMBER_4                &kp N5                  &kp NUMBER_6                &kp ASTERISK            &trans
+&trans  &mt LEFT_SHIFT PERCENT  &mt LEFT_CONTROL CARET  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_COMMAND RIGHT_BRACKET  &kp GRAVE    &kp PERIOD  &mt RIGHT_COMMAND NUMBER_1  &mt RIGHT_ALT NUMBER_2  &mt RIGHT_CONTROL NUMBER_3  &mt RIGHT_SHIFT PERIOD  &trans
                                                         &trans                     &trans                          &trans       &kp RET     &trans                      &kp KP_NUMBER_0
             >;
         };
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(LEFT)  &kp LG(UP)  &kp LG(DOWN)  &kp LG(RIGHT)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT      &kp DOWN    &kp UP        &kp RIGHT      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans      &trans        &trans         &trans
-                        &to 0   &trans  &trans    &trans  &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(LEFT)  &kp LG(DOWN_ARROW)  &kp LG(UP)    &kp LG(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT      &kp DOWN            &kp UP_ARROW  &kp RIGHT      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans              &trans        &trans         &trans  &trans
+                        &to 0   &trans  &trans    &trans        &trans              &trans
             >;
         };
 
